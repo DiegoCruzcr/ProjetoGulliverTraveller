@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'gulliverTraveller'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44E2807DB6EC42098E8CC21A1214661E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_382FFD010DF24B40B3EF3F796FF6429D }}
           package: '*.war'
