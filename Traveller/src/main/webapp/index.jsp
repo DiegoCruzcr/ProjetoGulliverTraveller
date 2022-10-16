@@ -25,7 +25,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-azul-claro-degrade">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img class="header-logo" src="/assets/images/traveller-logo.svg"
+        <a class="navbar-brand" href="index.html"><img class="header-logo" src="/assets../assets/images/traveller-logo.svg"
             alt="Traveller"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,9 +86,9 @@
       <h3 class="text-center my-5">Se vocÃª estÃ¡ buscando roteiros <br /> legais para o seu fim de semana, estÃ¡ no lugar
         certo!</h3>
       <div>
-        <img src="/images/image 20.svg" alt="" class="intro-1">
-        <img src="/images/image 19.svg" alt="" class="intro-2">
-        <img src="/images/image 18.svg" alt="" class="intro-3">
+        <img src="../assets/images/image 20.svg" alt="" class="intro-1">
+        <img src="../assets/images/image 19.svg" alt="" class="intro-2">
+        <img src="../assets/images/image 18.svg" alt="" class="intro-3">
       </div>
     </section>
 
@@ -103,9 +103,9 @@
       
       <div  class="col col-lg-4 col-xs-12">
         
-      <div class="card  nosso-card mx-auto" id="go-hospedagem" style="width: 35rem;">
-        <h4 class="text-center m-4">Hospedagem</h4>
-        <img src="/icons/prÃ©dios.svg" class="icone-card mx-auto" alt="...">
+      <div class="card  nosso-card mx-auto" id="go-dicas" style="width: 35rem;">
+        <h4 class="text-center m-4">Dicas</h4>
+        <img src="../assets/icons/dica.svg" class="icone-card mx-auto" alt="...">
         <div class="card-body">
           <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -116,7 +116,7 @@
       <div class="col col-lg-4 col-sm-12 ">
       <div class="card nosso-card  mx-auto" style="width: 35rem;">
         <h4 class="text-center m-4">Atividades</h4>
-        <img src="/images/pegadas.svg" class="icone-card mx-auto" alt="...">
+        <img src="../assets/images/pegadas.svg" class="icone-card mx-auto" alt="...">
         <div class="card-body">
           <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -126,7 +126,7 @@
       <div class="col col-lg-4 col-sm-12">
       <div class="card  nosso-card mx-auto" style="width: 35rem;">
         <h4 class="text-center m-4">Roteiros</h4>
-        <img src="/icons/terra.svg" class="icone-card mx-auto" alt="...">
+        <img src="../assets/icons/terra.svg" class="icone-card mx-auto" alt="...">
         <div class="card-body">
           <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -146,7 +146,7 @@
       
       <div  class="col col-lg-4 col-sm-12">
       <div class="card nosso-card  mx-auto" style="width: 35rem;">
-        <img src="/frontend 2.0/images/avenida_paulista.jpg" class="card-img-top" alt="...">
+        <img src="/frontend 2.0../assets/images/avenida_paulista.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -155,7 +155,7 @@
 
       <div class="col col-lg-4">
       <div class="card nosso-card  mx-auto" style="width: 35rem;">
-        <img src="/frontend 2.0/images/porto_seguro.png" class="card-img-top" alt="...">
+        <img src="/frontend 2.0../assets/images/porto_seguro.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -164,7 +164,7 @@
 
       <div class="col col-lg-4 col-sm-12">
       <div class="card nosso-card  mx-auto" style="width: 35rem;">
-        <img src="/frontend 2.0/images/porto_de_galinhas.jpg" class="card-img-top" alt="...">
+        <img src="/frontend 2.0../assets/images/porto_de_galinhas.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
@@ -187,9 +187,9 @@
         <h1>Traveller</h1>
         <p>Aventure-se conosco!</p>
         <div class="footer-icones">
-          <img src="/icons/facebook.png" alt="">
-          <img src="/icons/twitter.png" alt="">
-          <img src="/icons/instagram.png" alt="">
+          <img src="../assets/icons/facebook.png" alt="">
+          <img src="../assets/icons/twitter.png" alt="">
+          <img src="../assets/icons/instagram.png" alt="">
         </div>
       </div>
       <div class="col-xl-2 links">
@@ -224,8 +224,8 @@
     <!-- <script src="/frontend 2.0/js/usability.js"></script> -->
 
     <script>
-      document.getElementById("go-hospedagem").onclick = function() {
-        window.location.href = "http://127.0.0.1:5503/frontend%202.0/html/hospedagem.html"};
+      document.getElementById("go-dicas").onclick = function() {
+        window.location.href = "http://127.0.0.1:5500/Traveller/pages/dicas.html"};
       ;
   </script>
 </body>

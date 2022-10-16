@@ -25,7 +25,7 @@
 
 <body>
 
-  <!-- Início do header -->
+  <!-- Inï¿½cio do header -->
   <header>
     <nav class="navbar navbar-expand-lg bg-azul-claro-degrade">
       <div class="container-fluid">
@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse menu-link " id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">Início</a>
+              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">Inï¿½cio</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" href="servicos.html">Serviços</a>
+              <a class="nav-link text-menu-hover" href="servicos.html">Serviï¿½os</a>
             </li>
             <li class="nav-item  dropdown my-auto">
               <a class="nav-link dropdown-toggle text-menu-hover" href="#" role="button" data-bs-toggle="dropdown"
@@ -81,7 +81,7 @@
     <section class="user row">
       <div class="foto-perfil col-4">
         <div class="foto">
-          <img src="/icons/user_logo.svg" alt="ícone de usuário">
+          <img src="/icons/user_logo.svg" alt="ï¿½cone de usuï¿½rio">
           <h4 class="my-1">Nome: <c:out value="${Usuario.nome}"/></h4>
         </div>
         <div class="perfil-informacoes">
@@ -94,9 +94,9 @@
       </div>
       <div class="box-icones col-8">
         <div class="icones">
-          <img src="/icons/notification.svg" alt="ícone de notificação">
-          <img src="/icons/chat.svg" alt="ícone de chat">
-          <img src="/icons/estrela.svg" alt="ícone de notificação">
+          <img src="/icons/notification.svg" alt="ï¿½cone de notificaï¿½ï¿½o">
+          <img src="/icons/chat.svg" alt="ï¿½cone de chat">
+          <img src="/icons/estrela.svg" alt="ï¿½cone de notificaï¿½ï¿½o">
 
 
         </div>
@@ -122,9 +122,9 @@
         </div>
       </div>
       <div class="col-xl-2 links">
-        <p>Sobre nós</p>
+        <p>Sobre nï¿½s</p>
         <p><a href="#">Quem somos?</a></p>
-        <p><a href="#">Missão e Valores</a></p>
+        <p><a href="#">Missï¿½o e Valores</a></p>
       </div>
       <div class="col-xl-2 links">
         <p>Suporte</p>
@@ -139,7 +139,7 @@
       <div class="col-xl-2 links">
         <p>Privacidade</p>
         <p><a href="#">Termos de Uso</a></p>
-        <p><a href="#">Proteção de dados</a></p>
+        <p><a href="#">Proteï¿½ï¿½o de dados</a></p>
       </div>
       <p class="text-center mt-2">2022 Traveller, Inc.</p>
     </section>
@@ -153,8 +153,8 @@
   <!-- <script src="/frontend 2.0/js/usability.js"></script> -->
 
   <script>
-    document.getElementById("go-hospedagem").onclick = function () {
-      window.location.href = "http://127.0.0.1:5503/frontend%202.0/html/hospedagem.html"
+    document.getElementById("go-dicas").onclick = function () {
+      window.location.href = "http://127.0.0.1:5500/Traveller/pages/dicas.html"
     };;
   </script>
 </body>
