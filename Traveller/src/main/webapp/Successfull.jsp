@@ -105,11 +105,7 @@
     </section>
 
   </main>
-  <div class="empurra-footer">
-
-  </div>
-
-
+  
   <footer class="bg-azul-claro-degrade container-fluid">
     <section class="row text-center">
       <div class="footer-logo col-xl-3">
