@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-  <jsp:useBean id="Usuario" type="model.Usuario" scope="session" />
+  <jsp:useBean id="Usuario" type="model.Client" scope="session" />
   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 </head>

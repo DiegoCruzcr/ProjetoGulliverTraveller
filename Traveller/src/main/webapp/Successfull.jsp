@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse menu-link " id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">Inï¿½cio</a>
+              <a class="nav-link text-menu-hover" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item my-auto">
-              <a class="nav-link text-menu-hover" href="servicos.html">Serviï¿½os</a>
+              <a class="nav-link text-menu-hover" href="servicos.html">Serviços</a>
             </li>
             <li class="nav-item  dropdown my-auto">
               <a class="nav-link dropdown-toggle text-menu-hover" href="#" role="button" data-bs-toggle="dropdown"
