@@ -60,10 +60,10 @@
                             <a class="nav-link text-menu-hover my-auto" href="#">Contato</a>
                         </li>
                         <li class="nav-item bt-destaque bt-destaque-escuro my-auto">
-                            <a class="nav-link  px-2 max-widht" href="cadastro.html">Cadastre-se</a>
+                            <a class="nav-link  px-2 max-widht" href="cadastro.jsp">Cadastre-se</a>
                         </li>
                         <li class="nav-item bt-destaque bt-destaque-borda my-auto">
-                            <a class="nav-link px-4 max-widht" href="login.html">Login</a>
+                            <a class="nav-link px-4 max-widht" href="login.jsp">Login</a>
                         </li>
                     </ul>
                 </div>

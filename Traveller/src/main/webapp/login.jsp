@@ -33,15 +33,15 @@
                 <h3 class="display-5 lead">Login</h3>
             </div>
 
-            <form action="" method="post">
+            <form action="/login" method="post">
                 <div class="mb-3">
                     <label for="email" class="form-label">E-mail:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail">
                 </div>
 
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha:</label>
-                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
                 </div>
 
                 <div class="form-check mb-3">
