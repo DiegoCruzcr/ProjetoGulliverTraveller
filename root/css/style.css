@@ -1030,3 +1030,46 @@ header {
     font-size: 7px;
   }
 }
+
+/* Modal */
+
+a {
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-body, 
+form div  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-body h5 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.modal-body input {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  border: 1px solid #7777;
+}
+
+.modal-body div p {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.modal-body div p a {
+  color: #263A8B;
+}
