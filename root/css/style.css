@@ -1073,3 +1073,24 @@ form div  {
 .modal-body div p a {
   color: #263A8B;
 }
+
+#senha_2 {
+  margin-bottom: 0px;
+}
+
+#senha_3 {
+  margin:5px 0px 0px 0px;
+}
+
+#senha1 {
+  position: relative;
+  bottom: 37px;
+  left: 200px;
+}
+
+#senha2,
+#senha3 {
+  position: relative;
+  bottom: 35px;
+  left: 420px;
+}
