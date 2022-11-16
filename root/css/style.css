@@ -4,7 +4,7 @@
 
 /* padrões do projeto */
 :root {
-  --bs-blue: #263A8B !important;
+  --bs-blue: #263A8B;
 }
 
 
@@ -17,16 +17,17 @@ body {
 /* titulos */
 
 .lg-title {
-  font-size: 3.375rem !important;
+  font-size: 3.0rem !important;
+
 
 }
 
 .md-title {
-  font-size: 2.75rem !important;
+  font-size: 2.20rem;
 }
 
 .sm-title {
-  font-size: 2.125rem !important;
+  font-size: 2.0rem !important;
 }
 
 /* formatações e padrões */
@@ -36,7 +37,21 @@ body {
 }
 
 .border {
-  border-radius: 15px !important;
+  border-radius: 1rem;
+}
+
+@media(min-width: 900px) {
+  .border {
+    border-radius: 8px;
+  }
+}
+
+
+html hr {
+  position: relative;
+  height: 4px !important;
+  opacity: 100%;
+  background: #FFD233;
 }
 
 /* textos  e opções*/
@@ -47,17 +62,17 @@ body {
 }
 
 .sm-option {
-  font-size: 0.75rem !important;
+  font-size: 0.80rem !important;
   font-weight: 600 !important;
   margin-bottom: 0px !important;
 }
 
 .lg-text {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
 }
 
 .sm-text {
-  font-size: 0.75rem !important;
+  font-size: 0.50rem !important;
 }
 
 /* cores */
@@ -93,6 +108,24 @@ body {
 .bg-blue {
   background-color: #263A8B !important;
 }
+
+
+/* icones */
+
+.icone {
+  width: 42px;
+  height: 42px;
+}
+
+
+.icone2 {
+  background-color: #FFD233;
+  border-radius: 1rem;
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+}
+
 
 
 /* margens */
@@ -365,6 +398,11 @@ body {
 }
 
 
+
+
+
+
+
 /* container */
 
 @media (min-width: 1600px) {
@@ -379,37 +417,27 @@ body {
   }
 }
 
-@media (min-width: 2000px) {
-  .container {
-    max-width: 1880px !important;
-  }
-}
 
-@media (min-width: 2200px) {
-  .container {
-    max-width: 2080px !important;
-  }
-}
+
+
 
 /* bottons */
 
 .sm-bd-white-btn {
   box-sizing: border-box;
-  height: 1.5rem;
+  height: 1.2rem;
   width: fit-content;
   min-width: 6.125rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  padding: 0.3125rem 0 1.7rem 0;
 
 }
 
@@ -422,21 +450,19 @@ body {
 
 .sm-bd-blue-btn {
   box-sizing: border-box;
-  height: 1.5rem;
+  height: 1.2rem;
   width: fit-content;
   min-width: 6.125rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-
 
 }
 
@@ -449,18 +475,17 @@ body {
 
 .sm-blue-btn {
   box-sizing: border-box;
-  height: 1.5rem;
+  height: 1.2rem;
   width: fit-content;
   min-width: 6.125rem;
   background-color: transparent;
   border: 1px solid #263A8B;
   background-color: #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -476,18 +501,17 @@ body {
 
 .sm-white-btn {
   box-sizing: border-box;
-  height: 1.5rem;
+  height: 1.2rem;
   width: fit-content;
   min-width: 6.125rem;
   background-color: transparent;
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -508,18 +532,17 @@ body {
 
 .md-bd-blue-btn {
   box-sizing: border-box;
-  height: 2.5rem;
+  height: 2.3rem;
   width: fit-content;
   min-width: 8.75rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 400;
   text-indent: 5px;
-  line-height: 0.06rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -535,18 +558,17 @@ body {
 
 .md-bd-white-btn {
   box-sizing: border-box;
-  height: 2.5rem;
+  height: 2.3rem;
   width: fit-content;
   min-width: 8.75rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 400;
   text-indent: 5px;
-  line-height: 0.06rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -562,19 +584,18 @@ body {
 
 .md-blue-btn {
   box-sizing: border-box;
-  height: 2.5rem;
+  height: 2.3rem;
   width: fit-content;
   min-width: 8.75rem;
   background-color: #263A8B;
   border: 1px solid #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 400;
   text-indent: 5px;
   text-decoration: none;
-  line-height: 0.06rem;
   text-align: center;
   font-weight: bold;
 
@@ -589,18 +610,17 @@ body {
 
 .md-white-btn {
   box-sizing: border-box;
-  height: 2.5rem;
+  height: 2.3rem;
   width: fit-content;
   min-width: 8.75rem;
   background-color: #ffffff;
   border: 1px solid #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 400;
   text-indent: 5px;
-  line-height: 0.06rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -620,18 +640,17 @@ body {
 
 .lg-bd-blue-btn {
   box-sizing: border-box;
-  height: 3.25rem;
+  height: 3.10rem;
   width: fit-content;
   min-width: 11.5rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
   text-indent: 5px;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -647,18 +666,17 @@ body {
 
 .lg-bd-white-btn {
   box-sizing: border-box;
-  height: 3.25rem;
+  height: 3.10rem;
   width: fit-content;
   min-width: 11.5rem;
   background-color: transparent;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
   text-indent: 5px;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -674,18 +692,17 @@ body {
 
 .lg-blue-btn {
   box-sizing: border-box;
-  height: 3.25rem;
+  height: 3.10rem;
   width: fit-content;
   min-width: 11.5rem;
   background-color: #263A8B;
   border: 1px solid #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
   text-indent: 5px;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -701,18 +718,17 @@ body {
 
 .lg-white-btn {
   box-sizing: border-box;
-  height: 3.25rem;
+  height: 3.10rem;
   width: fit-content;
   min-width: 11.5rem;
   background-color: #ffffff;
   border: 1px solid #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #263A8B;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
   text-indent: 5px;
-  line-height: 0.04rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -800,9 +816,10 @@ body {
   height: 3.25rem;
   width: fit-content;
   min-width: 11.5rem;
+  min-height: 10%;
   background-color: #263A8B;
   border: 1px solid #263A8B;
-  border-radius: 15px;
+  border-radius: 1rem;
   color: #ffffff;
   cursor: pointer;
   font-size: 1.5rem;
@@ -810,12 +827,14 @@ body {
   text-indent: 5px;
   text-decoration: none;
   text-align: center;
-  padding: 0.625rem 0 2.2rem 1rem;
   display: flex;
   text-decoration: none;
   justify-content: center;
   transition: 450ms;
+
 }
+
+
 
 
 .lg-blue-btn-especial:hover {
@@ -826,35 +845,38 @@ body {
 
 .lg-blue-btn-especial svg {
   margin-left: 10px;
+  width: 2rem !important;
+  height: 2rem !important;
 }
+
 
 
 /**************SVG****************/
 
 
 
-path.one {
+path.svg-one {
   transition: 0.4s;
   transform: translateX(-60%);
 
 }
 
-path.two {
+path.svg-two {
   transition: 0.5s;
   transform: translateX(-30%);
 }
 
-.lg-blue-btn-especial:hover path.three {
+.lg-blue-btn-especial:hover path.svg-three {
   animation: color_anim 1s infinite 0.2s;
 
 }
 
-.lg-blue-btn-especial:hover path.one {
+.lg-blue-btn-especial:hover path.svg-one {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.6s;
 }
 
-.lg-blue-btn-especial:hover path.two {
+.lg-blue-btn-especial:hover path.svg-two {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.4s;
 }
@@ -901,7 +923,7 @@ header {
 .apresentation {
   width: 100%;
   height: fit-content;
-  min-height: 75vh;
+  min-height: 65vh;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.569) 0%, rgba(209, 209, 209, 0) 82.4%, rgba(255, 255, 255, 0.381) 100%), url(/root/images/praia_background4.jpg);
   background-size: 130%;
   background-repeat: no-repeat;
@@ -913,7 +935,7 @@ header {
   height: fit-content;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
-  border-radius: 15px;
+  border-radius: 1rem;
 }
 
 .busca {
@@ -924,8 +946,15 @@ header {
   width: 100%;
   height: 7rem;
   background: rgba(255, 255, 255, 0.7);
-  flex-wrap: nowrap;
-  overflow-x: scroll !important;
+
+}
+
+@media (max-width: 1000px) {
+  .barra-navegacao {
+
+    flex-wrap: nowrap;
+    overflow-x: scroll !important;
+  }
 }
 
 .barra-navegacao-container {
@@ -939,16 +968,236 @@ header {
 
 }
 
-.barra-navegacao-icone {
-  width: 42px;
-  height: 42px;
+
+/* main */
+
+.text-card {
+  width: 327px;
+  height: fit-content;
+  margin-right: 7%;
 }
+
+.teste {
+  width: 100% !important;
+  height: 100% !important;
+
+}
+
+
+.carousel-container {
+  width: 70%;
+}
+
+
+.carrossel-content {
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.carrossel-content img {
+
+  width: 100%;
+  height: 100%;
+  transform: translateY(-25%);
+}
+
+
+
+
+.conheca-section {
+  width: 100%;
+  height: 25rem;
+}
+
+.carousel-caption {
+  transform: translatey(-280%);
+  position: absolute !important;
+  right: 0% !important;
+  bottom: 0rem !important;
+  left: 0% !important;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.7) 100%);
+
+  border-radius: 0px 0px 1rem 1rem;
+  height: 115px;
+
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex !important;
+  justify-content: right !important;
+  padding: 0;
+  margin-right: 7% !important;
+  margin-bottom: 1rem !important;
+  margin-left: 15% !important;
+  list-style: none;
+}
+
+.circulo {
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+
+
+
+
+@media (max-width: 1800px) {
+
+  .carousel-caption {
+    transform: translatey(-202%);
+  }
+
+
+}
+
+
+@media (max-width: 1600px) {
+
+  .carousel-caption {
+    transform: translatey(-124%);
+  }
+
+  .carrossel-content img {
+
+    transform: translateY(-15%);
+  }
+
+
+
+}
+
+@media (max-width: 1400px) {
+
+  .carousel-caption {
+    transform: translatey(-170%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 110%;
+    transform: translateY(-25%);
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+
+  .carousel-caption {
+    transform: translatey(-100%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 110%;
+    transform: translateY(-20%);
+  }
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+  .carousel-caption {
+    transform: translatey(-60%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 130%;
+    transform: translateY(-15%);
+  }
+
+
+
+
+}
+
+@media (max-width: 800px) {
+
+  .carousel-caption {
+    transform: translatey(-150%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 160%;
+
+  }
+
+
+
+
+}
+
+@media (max-width: 780px) {
+
+  .carousel-caption {
+    transform: translatey(-0%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 160%;
+
+  }
+
+
+
+
+}
+
+@media (max-width: 500px) {
+
+  .carousel-caption {
+    transform: translatey(-130%);
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carrossel-content img {
+    width: 270%;
+    transform: translateY(-25%);
+  }
+
+
+
+}
+
+
+
 
 /* responsivo */
 
 @media (max-width: 1400px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 
 
@@ -976,7 +1225,7 @@ header {
 
 @media (max-width: 1000px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .apresentation {
@@ -986,7 +1235,7 @@ header {
 
   }
 
-  .barra-navegacao-icone {
+  .icone {
     width: 35px;
     height: 35px;
   }
@@ -996,7 +1245,7 @@ header {
 
 @media (max-width: 800px) {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 
 
@@ -1006,7 +1255,7 @@ header {
 
   }
 
-  .barra-navegacao-icone {
+  .icone {
     width: 25px;
     height: 25px;
   }
@@ -1016,7 +1265,7 @@ header {
 
 @media (max-width: 600px) {
   html {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .apresentation {
@@ -1027,6 +1276,6 @@ header {
 
 @media (max-width: 400px) {
   html {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
