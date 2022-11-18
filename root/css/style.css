@@ -36,6 +36,8 @@ body {
   font-weight: bold !important;
 }
 
+
+
 .border {
   border-radius: 1rem !important;
 }
@@ -72,7 +74,8 @@ html hr {
 }
 
 .sm-text {
-  font-size: 0.50rem !important;
+  font-size: 0.75rem !important;
+
 }
 
 /* cores */
@@ -1193,7 +1196,7 @@ header {
 
   .apresentation {
     min-height: fit-content;
-    background-size: ;
+
   }
 }
 
@@ -1203,11 +1206,31 @@ header {
   }
 }
 
+
+
+/* cards conheça o Brasil */
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+
+  border-radius: 1rem;
+}
+
+.card1 img {
+  border-radius: 1rem 1rem;
+}
+
 /* Modal */
 
 a {
   text-decoration: none !important;
-  font-weight: bold;
+
 }
 
 .botao-fechar {
@@ -1237,9 +1260,13 @@ a {
 }
 
 
-.modal-dialog {
-  min-width: 100vw;
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
 
 .modal-dialog-centered {
   display: flex;
@@ -1291,18 +1318,13 @@ form div {
   left: 38%;
 }
 
-#senha2,
-#senha3 {
+#senha2 {
   position: relative;
-  bottom: 35px;
-  left: 420px;
+  bottom: 0rem;
+  left: -7%;
 }
 
 #senha_1,
 #senha_2 {
   margin-bottom: 0px;
-}
-
-#senha_3 {
-  margin: 5px 0px 0px 0px;
 }
