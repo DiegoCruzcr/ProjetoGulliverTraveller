@@ -1383,6 +1383,26 @@ form div {
   background-position: center;
 }
 
+.gastronomia-banner {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.569) 0%, rgba(209, 209, 209, 0) 82.4%, rgba(255, 255, 255, 0.381) 100%),
+    url(/root/images/gastronomia/background_gastronomia.webp);
+  height: 28rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parques-banner {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.569) 0%, rgba(209, 209, 209, 0) 82.4%, rgba(255, 255, 255, 0.381) 100%),
+    url(/root/images/parques/background-parque.webp);
+  height: 28rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .card2 {
   position: relative;
   display: flex;
