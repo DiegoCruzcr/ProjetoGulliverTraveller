@@ -1285,10 +1285,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 600px;
   min-height: calc(100% - 1rem);
 }
 
-
+@media screen and (max-width: 425px) {
+  .modal-dialog-centered {
+    min-width: 300px;
+  }
+}
 
 
 .modal-content {
@@ -1397,6 +1402,16 @@ form div {
   border-radius: 1rem;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.569) 0%, rgba(209, 209, 209, 0) 82.4%, rgba(255, 255, 255, 0.381) 100%),
     url(/root/images/parques/background-parque.webp);
+  height: 28rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.atividades-banner {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.569) 0%, rgba(209, 209, 209, 0) 82.4%, rgba(255, 255, 255, 0.381) 100%),
+    url(/root/images/atividades/background-atividade.jpg);
   height: 28rem;
   background-size: 100%;
   background-repeat: no-repeat;
