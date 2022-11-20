@@ -1292,13 +1292,13 @@ a {
 
 
 .modal-content {
-  width: 50% !important;
+  width: 70% !important;
   min-width: fit-content;
 
 }
 
 .modal-conteudo {
-  width: 60%;
+  width: 90%;
 }
 
 
@@ -1415,4 +1415,155 @@ form div {
     object-fit: cover;
 
   }
+}
+
+
+/* USER PAGE */
+
+.user {
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+  background-image: url(../images/praia_background.png);
+}
+
+.user-header {
+  height: 50px;
+  color: #fff;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #263A8B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-header p {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-header button {
+  width: 150px;
+  height: 35px;
+  border: 1px solid #fff;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user-info button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #263A8B;
+}
+
+.user-info label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin-top: 10px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.user-info input,
+.user-info select {
+  max-width: 500px;
+  min-width: 300px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+/* USER PAGE */
+
+.user {
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+  background-image: url(../images/praia_background.png);
+}
+
+.user-header {
+  height: 50px;
+  color: #fff;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #263A8B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-header p {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-header button {
+  width: 150px;
+  height: 35px;
+  border: 1px solid #fff;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user-info button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #263A8B;
+}
+
+.user-info label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin-top: 10px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.user-info input,
+.user-info select {
+  max-width: 500px;
+  min-width: 300px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
 }
