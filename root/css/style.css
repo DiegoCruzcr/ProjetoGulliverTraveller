@@ -1469,3 +1469,7 @@ form div {
 .reserve-btn {
   width: 100%;
 }
+
+.user-icon img {
+  color: #263A8B;
+}
