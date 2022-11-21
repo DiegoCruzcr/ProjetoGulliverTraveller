@@ -25,6 +25,7 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script async defer src="https://maps.google.com/maps/api/js?key=AIzaSyCO7cjgtY8a8TLK8XCxVChOx0VrrFmf4jM&callback=initMap&v=weekly"></script>
     <!-- Nosso Js -->
     <script src="/root/scripts/animations.js"></script>
 
@@ -171,9 +172,9 @@
                             nove apartamentos e suítes, divididos entre o prédio principal e anexo, em uma área de
                             onze mil metros quadrados.</p>
                     </div>
-                    <div class="col-12 col-lg-6  services-img">
-                        <img class="border" src="/root/images/maps.png" alt="">
-                    </div>
+                    <p class="fs-3">Localização</p>
+                    <div id="map" style="width:100%;height:300px;background:grey;display:block;"></div>
+                    <p id="msg"></p>
                 </div>
                 <div class="col-3 sombra p-4 ">
 
@@ -322,7 +323,8 @@
 
     <!-- JS -->
 
-    <script src="js/script.js"></script>
+    <script src="../../js/route_distance.js"></script>
+    <script src="../../js/script.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
